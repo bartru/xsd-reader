@@ -6,6 +6,8 @@ class UrlUtils
 
     public static function resolveRelativeUrl($base, $rel)
     {
+        return $rel;
+
         $re = array(
             '#(/\.?/)#',
             '#/(?!\.\.)[^/]+/\.\./#'
